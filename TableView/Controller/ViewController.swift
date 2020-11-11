@@ -101,13 +101,14 @@ extension ViewController: UITableViewDataSource {
 extension ViewController: CustomCellDelegate {
     
     func showData(message: String?) {
-            let alert = UIAlertController(title: "Message", message: message, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            let title = NSLocalizedString("Message", comment: "")
+            let okButton = NSLocalizedString("OK", comment: "")
+            let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: okButton, style: .default, handler: nil))
             self.present(alert, animated: true, completion: nil)
         }
 }
 
-    
 
 
 

@@ -9,7 +9,6 @@
 import UIKit
 
 struct Photos: Decodable {
-    let url: String
     let thumbnailUrl: String
 }
 

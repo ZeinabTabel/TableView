@@ -21,5 +21,4 @@ class ViewDetails: UIViewController {
     func fillDetails() {
         body.text = comment?.body
     }
-
 }

@@ -23,8 +23,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="60" height="32"/>
                         <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="QfT-AG-Ulx"/>
                             <constraint firstAttribute="height" constant="32" id="Xru-aA-ezi"/>
-                            <constraint firstAttribute="width" constant="60" id="r8I-Ct-2ih"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -45,9 +45,8 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abd-Jp-lol">
-                        <rect key="frame" x="0.0" y="81.5" width="80" height="32"/>
+                        <rect key="frame" x="0.0" y="81.5" width="73" height="32"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="80" id="eyF-qM-KLk"/>
                             <constraint firstAttribute="height" constant="32" id="fdi-as-68v"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -62,8 +61,10 @@
                 <constraints>
                     <constraint firstItem="abd-Jp-lol" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="8d3-iR-jNa"/>
                     <constraint firstAttribute="trailing" secondItem="eCq-4Q-kl9" secondAttribute="trailing" constant="2" id="BX6-yD-ThK"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="abd-Jp-lol" secondAttribute="trailing" constant="10" id="CI5-Sg-JnF"/>
                     <constraint firstAttribute="bottom" secondItem="abd-Jp-lol" secondAttribute="bottom" id="NRt-KY-tVV"/>
                     <constraint firstItem="eCq-4Q-kl9" firstAttribute="top" secondItem="wW6-IB-yBO" secondAttribute="bottom" constant="5" id="RWb-pD-6Qv"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zHK-gf-hjR" secondAttribute="trailing" constant="10" id="Wy1-Yo-kSQ"/>
                     <constraint firstAttribute="trailing" secondItem="wW6-IB-yBO" secondAttribute="trailing" constant="2" id="aco-Z1-ReU"/>
                     <constraint firstItem="abd-Jp-lol" firstAttribute="top" secondItem="eCq-4Q-kl9" secondAttribute="bottom" constant="5" id="dA5-2b-Tat"/>
                     <constraint firstItem="zHK-gf-hjR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="guJ-m6-sy9"/>
