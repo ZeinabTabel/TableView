@@ -97,7 +97,7 @@ extension CollectionView: UICollectionViewDelegateFlowLayout {
         let availableWidth = view.frame.width - paddingSpace
         let widthPerItem = availableWidth / itemsPerRow
         
-        return CGSize(width: widthPerItem, height: widthPerItem)
+        return CGSize(width: floor(widthPerItem), height: floor(widthPerItem))
     }
     
     func collectionView(_ collectionView: UICollectionView,
